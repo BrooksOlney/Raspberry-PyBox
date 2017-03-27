@@ -19,7 +19,7 @@ from os.path import isfile, join
 TOKEN = 'S-aVck8tNgAAAAAAAAAAIInlY4_XleRSGvTFV95_fglkcLh51JOHGg66tq_bV-3z'
 
 # backup path and log file that will be created/modified inside of it
-BACKUPPATH = '/home/brooks/backup/'
+BACKUPPATH = 'Raspberry-PyBox/backupPrac/'
 if(os.path.exists(BACKUPPATH + 'log.txt')):
     LOG = open(BACKUPPATH + 'log.txt', 'w')
 else:
