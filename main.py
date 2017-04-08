@@ -1,16 +1,20 @@
 """
 Regularly backs up files from Dropbox
-Project Members: Brooks Olney, Chris Salgado, Carlos Perez, Patrick Cook
+Project Members:
+    - Brooks Olney
+    - Chris Salgado
+    - Carlos Perez -
+    - Patrick Cook
 """
 
 import sys
-
 import dropbox
 import time
 import datetime
 
 from dropbox.files import WriteMode
 from dropbox.exceptions import ApiError, AuthError
+
 import os
 from os import listdir
 from os.path import isfile, join
@@ -19,7 +23,8 @@ from os.path import isfile, join
 TOKEN = 'S-aVck8tNgAAAAAAAAAAIInlY4_XleRSGvTFV95_fglkcLh51JOHGg66tq_bV-3z'
 
 # backup path and log file that will be created/modified inside of it
-BACKUPPATH = 'Raspberry-PyBox/backupPrac/'
+# ********** REMEMBER TO CHANGE BACKUPPATH FILE PATH TO YOUR MACHINES FILEPATH*******
+BACKUPPATH = '~/github/Raspberry-PyBox/backupPrac/'
 if(os.path.exists(BACKUPPATH + 'log.txt')):
     LOG = open(BACKUPPATH + 'log.txt', 'w')
 else:
