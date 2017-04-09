@@ -2,10 +2,11 @@
 ## Regularly backup files from Dropbox using the Python SDK
 
 
- ###### if you want to do more with accessing backup files create your own dropbox app and change the TOKEN variable in main
+#### if you want to do more with accessing backup files create your own dropbox app and change the TOKEN variable in main
 
+## backupPrac folder added to .gitignore
 
-###### questions/concerns/notes in main.py:
+#### questions/concerns/notes in main.py:
    - line 7
    - can main be moved to the top?
    - c++ uses a set precision function to make text more
