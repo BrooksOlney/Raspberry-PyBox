@@ -1,22 +1,15 @@
 
+
+
+
 # ignore backupPrac
 backupPrac
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+# ***************************************** APRIL 4TH, 2017 *********
+#       <- Stuff below is from hackathon ->
+# *******************************************************************
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
